@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f9fafb;
+    color: #111;
+
+}
+h1{
+    background-color: cyan;
+    font-style: italic;
+}
+strong{
+    color: gray;
+}
+dt {
+    color: rosybrown;
+}
+.darker {
+    font-style: oblique;
+}
+.emphasis{
+    color: thistle;
+}
+.muted{
+    color: peru;
+}
+
