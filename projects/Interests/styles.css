@@ -24,4 +24,8 @@ dt {
 .muted{
     color: peru;
 }
+#site-title{
+    background-color: cyan;
+    color: #003049;
+}
 
