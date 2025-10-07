@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    Background:url('bluebg.jpg');
+    
+}
+header {
+    Background: url('SC-logo.jpg') no-repeat top right;
+    background-size: 25%;
+    
+}
+.mylist {
+    list-style-image: url('Untitled.png');
+
+}
+.other {
+    background-image: url(bluebg.jpg);
+    background-repeat: repeat;
+    background-color: rgb(rgb(78, 36, 170), green, blue);
+}
