@@ -1,16 +1,21 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
-    Background: url(GreenBackground.png)
+    background: url('GreenBackground.png') no-repeat center center;
+    background-size: cover;
+
     
 }
 header {
-    Background: url('Hyderabad.jpeg') no-repeat top right 25%;
+    background: url('Hyderabad.jpeg') no-repeat top right 25%;
     background-size: 150px;
     
 }
 .Mylist {
     list-style-image: url('UntitledH.png');
+    list-style-position: inside;
+    margin-left: 0;
+    padding-left: 0;
 
 }
 .other {
@@ -27,5 +32,6 @@ nav a{
 }
 .Mylist li {
     color: red;
+    margin-bottom: 5px;
 }
 
