@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a{
+    display: block;
+    padding: 40px;
+    background-color: aqua;
+    border-bottom: thin solid blueviolet;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+.Temple{
+    border: thin solid black;
+    width: 300px;
+   
+}
+.floater{
+    float: left;
+}
+.hammer {
+    position: fixed;
+    top: 10px;
+    left: 200px;
+    margin: 0; 
+    z-index: 10;
+    display: none;
+}
+.Temple img {
+    width: 100%;
+
+} 
+.clear {
+    clear: both;
+}
