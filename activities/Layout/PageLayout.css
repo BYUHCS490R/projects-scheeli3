@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=poppins:wght@400;600&display=swap');
+body{
+    background-color: rosybrown;
+    font-family: 'poppins', sans-serif;
+    line-height: 1.6;
+    text-align: left;
+    color: brown;
+    margin: 0;
+}
+.Container {
+    width: 850px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: grey;
+    border: 2px solid #bbdefb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(182, 22, 190, 0.3);
+}
+.Site-header{
+    background-image: url(BaahubaliLogo.png) ;
+    background-size: cover;
+    background-position: center;
+    background-origin: content-box;
+    background-clip: padding-box;
+    padding: 26px 0;
+    text-align: center;
+    color: #fff;
+    border-bottom: 3px solid #90caf9;
+
+}
+.Site-header h1,
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    margin: 0 0 12px;
+    color: gold;
+}
+nav ul{ 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+nav li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(185, 23, 23,0.85);
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s, color 0.2s;
+    font-weight: 600;
+}
+nav a:hover{
+    background-color: #0077ff;
+    color: #ccc;
+    
+}
+main {
+    padding: 20px 0;
+
+}
+figure.Content {
+    float: right;
+    width: 300px;
+    margin: 0 0 15px 20px;
+    border: 2px solid #ccc;
+    border-radius:  10px;
+    box-shadow: 2px 2px 8px rgba(24, 183, 208, 0.3);
+    background: #fff;
+    overflow: hidden;
+}
+figure.Content img {
+    display: block;
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+ 
+figure.Content figcaption{
+    font-style: italic;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 8px;
+    background-color: darkcyan;
+    border-top: 1px solid #e3f2fd;
+    color: darkmagenta;
+}
+
+p{
+    font-size: 1rem;
+    text-align:  justify;
+    margin-bottom: 0 0 15px 0;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    color: #714;
+    font-size: 1.5rem;
+    margin-bottom: 0 0 15px 0;
+}
+footer{
+    text-align: center;
+    background-color: #714;
+    color: cornsilk;
+    padding: 12px 0;
+    border-top: 2px solid #916c33;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(207, 187, 43, 0.5);
+}
