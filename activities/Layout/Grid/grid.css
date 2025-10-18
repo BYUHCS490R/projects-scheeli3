@@ -1,12 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-.parent{
-    display: grid;
-    grid-template-columns: 100px  100px 100px;
-    background-color: brown;
-    gap: 10px;
-}
+
 .Engage {
     background-color: cadetblue;
     display: grid;
@@ -20,7 +15,3 @@ body{
     background-color: grey;
 }
 
-
-.child {
-    background-color: orange;
-}
