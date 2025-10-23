@@ -1,0 +1,63 @@
+
+   *{ box-sizing: border-box; margin: 0; padding: 0;}
+   body{ font-family: Arial, Helvetica, sans-serif; line-height: 1.4;
+
+}
+.Site-header {
+    padding: 1rem;
+    
+}
+.Site-header h1{
+    margin-bottom: 1rem;
+}
+.main-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+}
+.main-nav a{
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+}
+.Page{
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 1rem;
+}
+.Sidebar {
+    padding: 0.75rem;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(220px, 1fr));
+    gap: 1rem;
+}
+.card {padding: 0.5rem;}
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card h3{margin: 0.5rem 0 0.25rem;}
+.card p{margin: 0 0 0.5rem;}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.footer-links a{
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    text-align: center;
+}
+footer {padding: 1rem;}
+footer .copyright{text-align: center;}
+.Content{
+    min-width: 0;
+}
