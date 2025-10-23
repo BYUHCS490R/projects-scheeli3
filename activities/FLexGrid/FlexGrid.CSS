@@ -57,7 +57,7 @@
     text-align: center;
 }
 footer {padding: 1rem;}
-footer .copyright{text-align: center;}
+footer .copyright{text-align: left;}
 .Content{
     min-width: 0;
 }
