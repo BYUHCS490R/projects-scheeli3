@@ -1,0 +1,54 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+header {
+    background-color: rgb(22, 63, 158);
+    color: white;
+}
+.sidebar h3{
+    margin: 0;
+}
+main h2{
+    margin: 0;
+}
+header h1{
+    margin: 0;
+}
+article{
+    font-family: 'Times New Roman', Times, serif;
+}
+nav {
+    display: none;
+
+}
+nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(53, 30, 30);
+    color: white;
+}
+nav a:hover{
+    background-color: white;
+    color: rgb(27, 185, 130);
+}
+.main-row{
+    display: flex;
+}
+.sidebar{
+    width: 200px;
+}
+.card{
+    border: thin solid #030303;
+    box-shadow: 3px 3px 5px rgb(194, 13, 13);
+    width: 300px;
+    margin: 5px;
+}
+.card img{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+}
