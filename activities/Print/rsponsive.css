@@ -50,3 +50,17 @@ nav a:hover{
     display: flex;
     flex-flow: row wrap;
 }
+@media ONLY screen (max-width: 400px) {
+   nav {
+    flex-direction: column;
+   }
+   .main-row{
+    flex-direction: column-reverse;
+   }
+   .sidebar{
+    width: 100%;
+   }
+   .main-card{
+    order: -1;
+   }
+    }
