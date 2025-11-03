@@ -12,7 +12,7 @@
     </header>
     <main>
         <h1>TABLES</h1>
-        <table border="1">
+        <table class="schedule">
             <caption>My Class Schedule</caption>
             <thead>
             <tr>
@@ -30,11 +30,13 @@
             <p>1. We use table to sow organized table (rows and columns).</p>
             <p>2. We don't use a table for page layput or design.</p>
             <p>3. We do extra work when adding accessibility like captions, headers.</p>
+            <p>4. What is the easiest way to color every other row a different color?</p>
+            <p> The easiest way to color every row is by using nth-child(odd) or nth-child(even)</p>
             </thead>
             <tbody>
-            <tr>
+            <tr class="grayed">
                 <td>CS</td>
-                <td rowspan="2">140</td>
+                <td rowspan="2" class="num">140</td>
                 <td>Wed Design</td>
                 <td>11 Am MWF</td>
                 <td>P3</td>
@@ -47,7 +49,7 @@
                 <td>P3</td>
                 <td>3</td>
             </tr>
-            <tr>
+            <tr class="grayed">
                 <td>CS</td>
                 <td>415</td>
                 <td>Operating Systems</td>
