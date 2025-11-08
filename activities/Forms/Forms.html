@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Forms.css">
+</head>
+<body>
+    <header>
+        <h1>Sreehitha Cheeli Web Design</h1>
+    </header>
+    <main>
+        <h1>Forms</h1>
+        <form action="formprocess.html" method="get">
+            <div>
+                <label for="fname">Email:</label>
+                <input type="email" name="fullname" value="your@email.com" id="fname">
+            </div>
+            <div>
+                <label for="pass"> Password:</label>
+                <input type="password" name="pass" id="pass">
+
+            </div>
+            <div>
+                <label for="state">Statw:</label>
+                <select name="state" id="state">
+                    <option value="blank">---</option>
+                    <option value="CA">California</option>
+                    <option value="HI" selected>Hawaii</option>
+                    <option value="UT">Utah</option>
+                </select>
+            </div>
+            <div>
+                <label><input type="checkbox" checked> I agree to the terms</label>
+            </div>
+            <div>
+                Gender
+                <label> <input type="radio" name="gender" value="Male">Male</label>
+                <label><input type="radio" name="gender" value="Female">Female</label>
+            </div>
+            
+            <div>
+                <label for="comment">Comments:</label>
+                <textarea name="comment" id="comment"> Hello</textarea>
+            </div>
+            <input type="submit" value="Sign Up">
+        </form>
+        <h1>
+            Engagement
+        </h1>
+        <p>1.Action Attribute tells the browser where to send the form data</p>
+        <p>2. Method Attribute tells the browser how to send the form data</p>
+        <p>3.GET sends data in the Url, good fir simple requests but not secure.</p>
+        <p>POST sends data in the request body, better for sending sensitive or large data.</p>
+    </main>
+    <footer>
+        &copy;Sreehitha Cheeli 2025
+    </footer>
+    
+</body>
+</html>
