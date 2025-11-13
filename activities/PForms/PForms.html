@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOIN THE CLUB</title>
+    <link rel="stylesheet" href="PForms.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1>JOIN THE CLUB</h1>
+            <p>Sign up to become a member today</p>
+        </div>
+    </header>
+    <main class="container">
+        <h2>Member Sign-Up Form</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Contact Details</legend>
+                <div class="form-row">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-row">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-row">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-row">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Membership Details
+                </legend>
+                <div class="form-row">
+                    <label for="level">Membership Level:</label>
+                    <select id="level" name="level" required>
+                        <option value="">Please choose</option>
+                        <option value="basic"> Basic</option>
+                        <option value="premium">Premium</option>
+                        <option value="student">Student</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <span class="group-level">Preferred Contact:</span>
+                    <div class="option-group">
+                        <label class="option">
+                            <input type="radio" name="contact" value="Email" required> Email                     
+                           </label>
+                           <label class="option">
+                            <input type="radio" name="contact" value="phone">phone
+                           </label>
+                           <label class="option">
+                            <input type="radio" name="contact" value="text">Text Message
+                           </label>
+
+                
+        
+                    </div>
+                </div>
+                <div class="form-row">
+                    <span class="group-label">Interests:</span>
+                    <div class="option-group">
+                        <label class="option">
+                            <input type="checkbox" name="interests" value="events">Club Events 
+                        </label>
+                        <label class="option">
+                            <input type="checkbox" name="interests" value="workshops">Workshops
+                        </label>
+                        <label class="option">
+                            <input type="checkbox" name="interests" value="volunteering"> volunteering
+                        </label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="password">Create Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-row form-row-full">
+                    <label for="message">About You:</label>
+                    <textarea id="message" name="message" rows="4"
+                    placeholder="Tell us a little about yourself..."></textarea>
+                </div>
+                <div class="form-row">
+                    <span class="group-label"></span>
+                    <label class="option">
+                        <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the club terms and conditions                    </label>
+                </div>
+            </fieldset>
+            <div class="form-action">
+                <button type="submit">Submit</button>
+                <button type="reset" class="secondary">Reset</button>
+                
+            </div>
+
+        </form>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Sreehitha Cheeli</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

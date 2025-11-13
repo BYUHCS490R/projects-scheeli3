@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(180, 213, 217);
+    color: purple;
+}
+.container{
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.site-header{
+    background-color: lightpink;
+    color: darkmagenta;
+    text-align: center;
+    padding: 20px 0;
+}
+.site-header h1{
+    margin: 0;
+    font-size: 2rem;
+}
+.site-header p{
+    margin: 5px 0 0;
+}
+.site-footer{
+    background-color: aquamarine;
+    color: coral;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+main h2{
+    margin-top: 20px;
+    text-align: center;
+}
+form{
+    background-color:cornsilk;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #023d77;
+}
+fieldset{
+    border: 1px solid #bfc7d1;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+legend{
+    font-weight: bold;
+    color:blue;
+}
+.form-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-row-full{
+    align-items: flex-start;
+}
+label,
+.group-label{
+    width: 180px;
+    font-weight: bold;
+}
+input,
+select,
+textarea{
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #b0b8c1;
+    background-color: #f9fbff;
+    font-size: 0.95rem;
+}
+textarea:focus{
+    outline: none;
+    border-color: #005b99;
+    box-shadow: 0 0 3px rgba(0,91, 153, 0.4);
+}
+.option{
+    display:inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding:4px 8px;
+    border-radius: 999px;
+    border:1px solid#d0d7de;
+    background-color: rgb(83, 235, 235);
+    font-weight: normal;
+}
+    .option-group{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+
+    }
+
+
+.form-action{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+button{
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #005b99;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+}
+button.secondary{
+    background-color: #6c757d;
+}
+button:hover{
+    opacity:0.9;
+}
+@media(max-width:600px){
+.form-row{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.group-label{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.form-action{
+    flex-direction: column;
+}
+button{
+    width: 100%;
+    padding: 12px;
+}
+}
