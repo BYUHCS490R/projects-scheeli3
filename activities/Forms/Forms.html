@@ -68,12 +68,36 @@
               </div>
              </fieldset>
         </form>
-        <h1>
-            Engagement
-        </h1>
-        <p>1. There are many ways like inline CSS, internsl style tags and external css files</p>
-        <p>Flexbox makes it easier to build layouts that adjust smoothly to different screen sizes. On bigger screens, items can be next to each other but on smaller screens, they can naturally stack on top of each other.</p>
+        <script>
+            document.getElementById('myform').addEventListener('submit',function(even){alert("Form Submitted");
+                const fullname= document.getElementById('fname').value;
+                const email=documnet.getElementById('email').value;
+                const password=document.getElementById('pass').value;
+                const age = document.getElementById('age').value;
+                if (!fullname || !email) {
+                    alert("You need a name and email.");
+                    return;
+                }
+                if (!age || age <18) {
+                    alert("You need to be 18");
+                    return;
+                }
+                const formData={
+                    name: fullname,
+                    email:email,
+                    password: password,
+                    age: age
+                };
+                console.log(formData);
+            })
+        </script>
+        <h1>ENGAGEMENT</h1>
+        <P>1. JavaScript is a programming language used to make websites interactive.</P>
+        <p>2. In the browser (front-end) and on teh server using Node.js</p>
+        <p>3. jQuery was the most popular library for many years</p>
+        <p>React is the most popular front-end javascript library today.</p>
     </main>
+    
     <footer>
         &copy;Sreehitha Cheeli 2025
     </footer>
