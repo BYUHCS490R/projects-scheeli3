@@ -17,10 +17,10 @@
         <a href="##">link</a>
     </nav>
     <main>
-        <h1>Forms</h1>
-        <form action="Forms.css" method="post">
+        <div id="message"></div>
+        <form action="processing.html" method="get" id="myForm"> 
             <fieldset>
-                <legend>Sign up</legend>
+                <legend>Account Info</legend>
            
             <div class="form-row">
                 <label for="fname">Full Name:</label>
@@ -68,34 +68,14 @@
               </div>
              </fieldset>
         </form>
-        <script>
-            document.getElementById('myform').addEventListener('submit',function(even){alert("Form Submitted");
-                const fullname= document.getElementById('fname').value;
-                const email=documnet.getElementById('email').value;
-                const password=document.getElementById('pass').value;
-                const age = document.getElementById('age').value;
-                if (!fullname || !email) {
-                    alert("You need a name and email.");
-                    return;
-                }
-                if (!age || age <18) {
-                    alert("You need to be 18");
-                    return;
-                }
-                const formData={
-                    name: fullname,
-                    email:email,
-                    password: password,
-                    age: age
-                };
-                console.log(formData);
-            })
+        <script src="Forms.js">
+            
         </script>
         <h1>ENGAGEMENT</h1>
-        <P>1. JavaScript is a programming language used to make websites interactive.</P>
-        <p>2. In the browser (front-end) and on teh server using Node.js</p>
-        <p>3. jQuery was the most popular library for many years</p>
-        <p>React is the most popular front-end javascript library today.</p>
+        <p>
+           1. AJAX is a method that lets a webpage load or send data without refreshing the whole page.
+        </p>
+        <p>2. We do that because it makes our code cleaner, easier to maintain, reusable.</p>
     </main>
     
     <footer>
