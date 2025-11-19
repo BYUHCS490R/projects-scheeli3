@@ -23,7 +23,7 @@ body{
     margin: 5px 0 0;
 }
 .site-footer{
-    background-color: aquamarine;
+    background-color: rgb(38, 122, 94);
     color: coral;
     text-align: center;
     padding: 10px 0;
@@ -54,14 +54,16 @@ legend{
 .form-row{
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    
 }
 .form-row-full{
     align-items: flex-start;
 }
 label,
-.group-label{
-    width: 180px;
+.group-label,
+.group-level {
+    width: 170px;
     font-weight: bold;
 }
 input,
@@ -91,8 +93,8 @@ textarea:focus{
 }
     .option-group{
         display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
+        align-items: center;
+        gap: 10px;
 
     }
 
