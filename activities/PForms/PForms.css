@@ -76,6 +76,18 @@ textarea{
     background-color: #f9fbff;
     font-size: 0.95rem;
 }
+input [type="radio"],
+input [type="checkbox"]{
+    flex: 0 0 auto;
+    width: auto;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+.option input[type="radio"],
+.option input[type="checkbox"]{
+    margin-right: 6px;
+}
 textarea:focus{
     outline: none;
     border-color: #005b99;
@@ -90,6 +102,12 @@ textarea:focus{
     border:1px solid#d0d7de;
     background-color: rgb(83, 235, 235);
     font-weight: normal;
+}
+.option input[type="radio"],
+.option input[type="checkbox"]{
+    margin-right: 6px;
+    position: relative;
+    top: 0;
 }
     .option-group{
         display: flex;
