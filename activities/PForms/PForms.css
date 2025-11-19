@@ -84,10 +84,8 @@ input [type="checkbox"]{
     background-color: transparent;
     border: none;
 }
-.option input[type="radio"],
-.option input[type="checkbox"]{
-    margin-right: 6px;
-}
+
+
 textarea:focus{
     outline: none;
     border-color: #005b99;
