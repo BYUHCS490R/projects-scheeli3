@@ -63,6 +63,14 @@ th, td{
 th{
     background: #aab0c4;
 }
+nav ul{
+    list-style-type: disc;
+    padding-left: 40px;
+}
+nav li{
+    display: list-item;
+    align-items: center;
+}
 
 form{ 
     display: flex;
