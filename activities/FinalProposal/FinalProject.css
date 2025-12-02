@@ -69,7 +69,7 @@ nav ul{
 }
 nav li{
     display: list-item;
-    align-items: center;
+    align-items: left;
 }
 
 form{ 
